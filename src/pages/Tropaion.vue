@@ -18,7 +18,7 @@
             .col
               .float-right
                 q-select.select-year(dark v-model="year" color="negative" :options="years" rounded outlined dense)
-          .row
+          .categories
             .category(v-for="badges, category in trophiesByCategories")
               .text-h5.text-italic.text-uppercase.text-weight-bold {{category}}
               hr
