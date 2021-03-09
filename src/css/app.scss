@@ -1,0 +1,22 @@
+// app global css in SCSS form
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: auto;
+  font-weight: 600;
+  src: url('../assets/fonts/Montserrat-SemiBold.ttf'); /* IE9 Compat Modes */
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: auto;
+  font-weight: 700;
+  src: url('../assets/fonts/Montserrat-Bold.ttf'); /* IE9 Compat Modes */
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: black;
+  color: white;
+}
+
