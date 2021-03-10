@@ -4,7 +4,7 @@
       .col.q-pr-md.xs-hide.md-hide.sm-hide
         .text-h7.text-druk Someone Verylongname
       .col-lg-10.col-md-12.main
-        .section-title.title.text-uppercase.text-druk Your Tropaion
+        .section-title.text-uppercase.text-druk Your Tropaion
         template(v-if="loading")
           .fixed-center.text-center.full-width
             q-spinner(color="negative" size="6em")
@@ -122,6 +122,7 @@ export default {
 
   .title {
     font-size: 24px;
+    line-height: 25px;
 
     .numbers {
       font-size: 18px;
