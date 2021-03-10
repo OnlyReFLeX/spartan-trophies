@@ -1,17 +1,9 @@
 // app global css in SCSS form
 
-@font-face {
-  font-family: 'Montserrat';
-  font-style: auto;
-  font-weight: 600;
-  src: url('../assets/fonts/Montserrat-SemiBold.ttf'); /* IE9 Compat Modes */
-}
+@import "fonts";
 
-@font-face {
-  font-family: 'Montserrat';
-  font-style: auto;
-  font-weight: 700;
-  src: url('../assets/fonts/Montserrat-Bold.ttf'); /* IE9 Compat Modes */
+.text-druk {
+  font-family: "Druk", "Roboto", "-apple-system", "Helvetica Neue", Helvetica, Arial, sans-serif;;
 }
 
 body {
